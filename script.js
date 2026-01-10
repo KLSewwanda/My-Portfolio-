@@ -51,7 +51,7 @@ function confirmDownload() {
   const proceed = confirm("Do you want to download the resume?");
   if (proceed) {
     const resumeUrl =
-      "https://drive.google.com/uc?id=1Jo1A5G3HK07zliJ8gcrGOA2AeDeH06bq&export=download";
+      "https://drive.google.com/uc?id=1yCKcFr9RtuwgMGlAloC__RlYL9xPWDkr&export=download";
     window.open(resumeUrl, "_blank");
   }
 }
@@ -143,3 +143,4 @@ function openGmail() {
     );
   }
 }
+
