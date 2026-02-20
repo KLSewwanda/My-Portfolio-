@@ -51,7 +51,7 @@ function confirmDownload() {
   const proceed = confirm("Do you want to download the resume?");
   if (proceed) {
     const resumeUrl =
-      "https://drive.google.com/uc?id=1yCKcFr9RtuwgMGlAloC__RlYL9xPWDkr&export=download";
+      "https://drive.google.com/uc?id=1-JBgi40JmnBzVluqRXDqg1UBqLjbHiz0&export=download";
     window.open(resumeUrl, "_blank");
   }
 }
@@ -76,7 +76,7 @@ function closeDownloadModal() {
 // Confirm and download resume
 function confirmAndDownload() {
   const resumeUrl =
-    "https://drive.google.com/uc?id=1yCKcFr9RtuwgMGlAloC__RlYL9xPWDkr&export=download";
+    "https://drive.google.com/uc?id=1-JBgi40JmnBzVluqRXDqg1UBqLjbHiz0&export=download";
   const a = document.createElement("a");
   a.href = resumeUrl;
   a.download = "Sewwanda_Lakshitha_Resume.pdf";
@@ -143,5 +143,6 @@ function openGmail() {
     );
   }
 }
+
 
 
